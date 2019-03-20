@@ -64,6 +64,7 @@ Check current container status:
 - grafana - http://<docker_ip_address>:3000
 - cadvisor - http://<docker_ip_address>:8080
 - blackbox - http://<docker_ip_address>:9115
+
 Login into grafana web interface using default administrator account: admin/admin
 
 6. Install Netdata agent to hosts that you want to monitor. You can install netdata from binary packages for Linux OS. Detail instructions for netdata installation is here: https://github.com/firehol/binary-packages
